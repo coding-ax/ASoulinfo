@@ -8,8 +8,7 @@
     "build": "tsc",
     "start": "nodemon dist/index.js",
     "watch-start": "concurrently \"tsc -w\" \"npm run start\"",
-    "ts-start": "ts-node src/index.ts",
-    "pub": ""
+    "ts-start": "ts-node src/index.ts"
   },
   "bin": {
     "asoulinfo": "bin/index.js"
