@@ -1,0 +1,32 @@
+{
+  "name": "asoulinfo",
+  "version": "1.0.0",
+  "description": "一个关于asoul的数据收集小工具",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run start",
+    "build": "tsc",
+    "start": "nodemon dist/index.js",
+    "watch-start": "concurrently \"tsc -w\" \"npm run start\"",
+    "ts-start": "ts-node src/index.ts"
+  },
+  "bin": {
+    "asoulinfo": "bin/index.js"
+  },
+  "author": "AX",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/commander": "^2.12.2",
+    "@types/node": "^16.4.1",
+    "concurrently": "^6.2.0",
+    "cross-env": "^7.0.3",
+    "nodemon": "^2.0.12",
+    "ts-node": "^10.1.0",
+    "typescript": "^4.3.5"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "cheerio": "^1.0.0-rc.10",
+    "commander": "^8.0.0"
+  }
+}
