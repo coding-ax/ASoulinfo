@@ -5,7 +5,7 @@ const app = new Controller();
 
 
 program
-    .version('0.1.0')
+    .version('0.0.1')
     .option('-c, --count', '获取A-Soul实时的粉丝数目')
     .option('-s, --space', '查看A-Soul最新一条动态')
     .parse(process.argv);
