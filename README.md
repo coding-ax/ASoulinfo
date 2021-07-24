@@ -1,5 +1,5 @@
 # ASoulInfo
-一个快速查看A-Soul成员相关数据的CLI工具
+一个使用typescript开发的，用于快速查看A-Soul成员相关数据的CLI工具
 
 ## 1. npm包主页
 https://www.npmjs.com/package/asoulinfo

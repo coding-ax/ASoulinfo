@@ -8,7 +8,8 @@
     "build": "tsc",
     "start": "nodemon dist/index.js",
     "watch-start": "concurrently \"tsc -w\" \"npm run start\"",
-    "ts-start": "ts-node src/index.ts"
+    "ts-start": "ts-node src/index.ts",
+    "pub": ""
   },
   "bin": {
     "asoulinfo": "bin/index.js"
@@ -23,6 +24,10 @@
     "nodemon": "^2.0.12",
     "ts-node": "^10.1.0",
     "typescript": "^4.3.5"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/WHUT-XGP/ASoulinfo"
   },
   "dependencies": {
     "axios": "^0.21.1",
