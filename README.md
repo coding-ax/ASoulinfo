@@ -21,3 +21,15 @@ asoulinfo -c
 ```SH
 asoulinfo -s
 ```
+
+## 开发
+1. clone本项目  
+2. npm install安装依赖  
+3. 本项目基于ts开发，运行下面命令会自动进行ts编译和监听文件变化。
+```sh
+npm run watch-start
+```
+4. 如果你只需要立刻运行 请使用
+```sh
+npm start
+```
