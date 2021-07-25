@@ -1,6 +1,6 @@
 {
   "name": "asoulinfo",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "一个关于asoul的数据收集小工具",
   "main": "index.js",
   "scripts": {
