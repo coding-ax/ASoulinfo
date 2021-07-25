@@ -3,5 +3,5 @@ export declare const ASoulIDs: {
     Bella: string;
     Carol: string;
     Diana: string;
-    Elien: string;
+    Eileen: string;
 };

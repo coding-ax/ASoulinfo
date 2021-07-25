@@ -5,7 +5,7 @@ interface ASoulCommonResponse<T> {
     Bella?: T;
     Coral?: T;
     Diana?: T;
-    Elien?: T;
+    Eileen?: T;
 }
 
 interface ASoulFirstSpaceResponse {
